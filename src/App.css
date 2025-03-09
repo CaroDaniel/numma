@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.number-container {
+  display: flex;
+  gap: 20px;
+}
+
+.number {
+  font-size: 2rem;
+  padding: 20px;
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
